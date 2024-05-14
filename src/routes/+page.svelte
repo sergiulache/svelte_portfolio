@@ -9,8 +9,7 @@
 	<div class="flex flex-col gap-8">
 		<p>
 			Hello, I'm Sergiu, a web developer based in Romania. I have a passion for web development and
-			creating digital experiences. I'm currently working as a full-stack developer at a digital
-			agency.
+			creating digital experiences. I'm currently working on a B2B SaaS project with one of my university colleagues.
 		</p>
 		<div>
 			<div class="flex flex-row gap-6 items-center">
