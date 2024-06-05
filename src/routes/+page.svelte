@@ -3,15 +3,11 @@
 	import * as Avatar from '$lib/components/ui/avatar';
 	import avatar from '$lib/assets/avatar.jpg';
 	import Icon from '@iconify/svelte';
-	import * as HoverCard from '$lib/components/ui/hover-card';
-	import CalendarDays from 'lucide-svelte/icons/calendar-days';
 	import SvelteHover from '$lib/components/custom/svelte-hover.svelte';
 	import NextjsHover from '$lib/components/custom/nextjs-hover.svelte';
 
 	export let data;
 </script>
-
-
 
 <main class="text-primary-foreground">
 	<p class="mb-8 text-4xl tracking-wider">Sergiu Batrînac</p>
