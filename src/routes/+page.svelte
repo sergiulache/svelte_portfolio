@@ -10,7 +10,7 @@
 </script>
 
 <main class="text-primary-foreground">
-	<p class="mb-8 text-4xl tracking-wider">Sergiu Batrînac</p>
+	<p class="mb-9 text-4xl tracking-wider">Sergiu Batrînac</p>
 	<div class="flex flex-col gap-8">
 		<p>
 			Hello, I'm Sergiu, a web developer based in Romania. I have a passion for web development and
