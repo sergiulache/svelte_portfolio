@@ -57,7 +57,7 @@
 		<div class="navigation gap-2">
 			<img alt="logo" src={white_logo} class="logo" style="width: 100px;"> <!-- Ajustat width-ul pentru logo -->
 			<Button href="/" class="text-md {($page.url.pathname === '/') ? 'bg-accent' : ''}">home</Button>
-			<Button href="/about" class="text-md {($page.url.pathname === '/about') ? 'bg-accent' : ''}">about</Button>
+			<Button href="/work" class="text-md {($page.url.pathname === '/work') ? 'bg-accent' : ''}">work</Button>
 			<Button href="/contact" class="text-md {($page.url.pathname === '/contact') ? 'bg-accent' : ''}">contact</Button>
 		</div>
 
