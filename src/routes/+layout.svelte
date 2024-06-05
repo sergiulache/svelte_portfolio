@@ -13,22 +13,22 @@
 	.container {
 		display: flex;
 		min-height: 100vh;
-		align-items: flex-start; /* Schimbat de la 'center' la 'flex-start' */
+		align-items: flex-start; 
 		justify-content: center;
-		padding: 2rem 1rem 1rem; /* Adaugat padding top pentru spațiu */
+		padding: 2rem 1rem 1rem; 
 	}
 
 	.navigation {
 		display: flex;
 		flex-direction: column;
-		justify-content: flex-start; /* Asigurați că logo-ul și butoanele încep de sus */
+		justify-content: flex-start; 
 	}
 
 	.content {
 		flex-grow: 1;
 		display: flex;
-		align-items: flex-start; /* Aliniere la top pentru conținut */
-		justify-content: flex-start; /* Centrare eliminată, pentru aliniere la stânga */
+		align-items: flex-start; 
+		justify-content: flex-start;
 		padding: 0 2rem;
 		max-width: 1200px;
 	}
@@ -41,13 +41,13 @@
 	}
 
 	.active-button {
-		background-color: #4CAF50; /* Un verde pentru exemplu */
+		background-color: #4CAF50; 
 		color: white;
 	}
 
 	@media (min-width: 1024px) {
 		.container {
-			padding: 18rem 12rem 8rem 4rem; /* Ajustat padding */
+			padding: 14rem 12rem 8rem 4rem; 
 		}
 	}
 </style>

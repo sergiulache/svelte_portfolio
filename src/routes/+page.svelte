@@ -1,7 +1,10 @@
-<script>
+<script lang="ts">
+	/** @type {import('./$types').PageData} */
 	import * as Avatar from '$lib/components/ui/avatar';
 	import avatar from '$lib/assets/avatar.jpg';
 	import Icon from '@iconify/svelte';
+
+	export let data;
 </script>
 
 <main class="text-primary-foreground">
@@ -24,7 +27,7 @@
 					</div>
                     <div class="flex flex-row items-center gap-2">
 						<Icon icon="mdi-github" width="2rem" color="#8a8a8a" />
-						<a class="text-[#8a8a8a]" href="https://github.com/sergiulache">339 contributions in the last year</a>
+						<a class="text-[#8a8a8a]" href="https://github.com/sergiulache">{data.props.contributions} contributions in the last year</a>
 					</div>
                     <div class="flex flex-row items-center gap-2">
 						<Icon icon="mdi:calendar-check" width="2rem" color="#8a8a8a"/>
