@@ -54,7 +54,7 @@
 				and SvelteKit, but most of my projects are built with
 				<NextjsHover />
 				and React. Amongst my projects, you can find a variety of web applications, from simple landing
-				pages to complex e-commerce platforms. I was always more passionate about the smaller projects,
+				pages to complex SaaS platforms. I was always more passionate about the smaller projects,
 				as they allow me to experiment with new technologies and ideas.
 			</p>
 		</div>
