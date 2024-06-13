@@ -38,7 +38,7 @@
 					</div>
 					<div class="flex flex-row items-center gap-2 underline-offset-4 hover:underline">
 						<Icon icon="mdi:calendar-check" width="2rem" color="#8a8a8a" />
-						<a class="text-[#8a8a8a]" href="https://github.com/sergiulache">5 finished projects</a>
+						<a class="text-[#8a8a8a]" href="/work">3 finished projects</a>
 					</div>
 				</div>
 			</div>
