@@ -18,7 +18,7 @@
 				<div class="self-center">
 					<img alt="logo" src={white_logo} class="logo hidden md:block lg:block" style="width: 250px;" />
 				</div>
-				<div class="flex flex-col gap-2 col-span-2">
+				<div class="flex flex-col gap-2 col-span-3 md:col-span-2 lg:col-span-2">
 					<h3 class="mb-4 text-2xl text-white">SvelteKit Auction Platform</h3>
 					<p class="text-white">
 						This is a project featuring a custom Python API with FastAPI, SvelteKit and AWS integration. The winner of each auction is determined by a custom AI model that was tweaked with Weka.
@@ -42,7 +42,7 @@
 				<div class="self-center">
 					<img alt="logo" src={white_logo} class="logo hidden md:block lg:block" style="width: 250px;" />
 				</div>
-				<div class="flex flex-col gap-2 col-span-2">
+				<div class="flex flex-col gap-2 col-span-3 md:col-span-2 lg:col-span-2">
 					<h3 class="mb-4 text-2xl text-white">Next.js SaaS for handling warranty tickets</h3>
 					<p class="text-white">
 						This is a B2B SaaS aimed at big companies that need to handle warranty tickets in an efficient manner. The tech stack includes Next.js with server actions, Lucia Auth v3, Drizzle ORM for handling the Zod schemas, Supabase with Postgres for the database, Cloudflare R2 for file uploads, Redis and Bullmq for background jobs and Nodemailer for SMTP emails.
@@ -62,7 +62,7 @@
 				<div class="self-center">
 					<img alt="logo" src={white_logo} class="logo hidden md:block lg:block" style="width: 250px;" />
 				</div>
-				<div class="flex flex-col gap-2 col-span-2">
+				<div class="flex flex-col gap-2 col-span-3 md:col-span-2 lg:col-span-2">
 					<h3 class="mb-4 text-2xl text-white">Improved version of the Next.js SaaS</h3>
 					<p class="text-white">
 						This is the aforementioned SaaS, but migrated to newer technologies with security and performance improvements. The tech stack is changed to HonoJS for the API and Tanstack Router for routing. The frontend is using vanilla React with TailwindCSS.
@@ -82,7 +82,7 @@
 				<div class="self-center">
 					<img alt="logo" src={white_logo} class="logo hidden md:block lg:block" style="width: 250px;" />
 				</div>
-				<div class="flex flex-col gap-2 col-span-2">
+				<div class="flex flex-col gap-2 col-span-3 md:col-span-2 lg:col-span-2">
 					<h3 class="mb-4 text-2xl text-white">SvelteKit Portofolio</h3>
 					<p class="text-white">
 						This is the portofolio you are currently viewing. It is built with SvelteKit, TailwindCSS and Shadcn components.
