@@ -8,6 +8,7 @@
 <style>
 	:global(body) {
 		@apply bg-primary;
+		overflow-y: scroll;
 	}
 
 	.container {
@@ -61,7 +62,7 @@
 			<Button href="/contact" class="text-md {($page.url.pathname === '/contact') ? 'bg-accent' : ''}">contact</Button>
 		</div>
 
-		<div class="content mt-4">
+		<div class="content mt-4 w-full">
 			<slot></slot>
 		</div>
 	</div>

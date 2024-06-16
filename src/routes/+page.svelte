@@ -18,7 +18,7 @@
 			university colleagues.
 		</p>
 		<div>
-			<div class="flex flex-row items-center gap-6">
+			<div class="flex md:flex-row lg:flex-row flex-col items-center gap-6">
 				<Avatar.Root>
 					<Avatar.Image src={avatar} alt="avatar" />
 					<Avatar.Fallback>CN</Avatar.Fallback>
