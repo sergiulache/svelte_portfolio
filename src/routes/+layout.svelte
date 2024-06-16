@@ -3,6 +3,8 @@
 	import Button from '$lib/components/ui/button/button.svelte';
 	import white_logo from '$lib/assets/white_logo.png'
 	import '../app.css';
+	import * as Sheet from '$lib/components/ui/sheet';
+	import Icon from '@iconify/svelte';
 </script>
 
 <style>
@@ -17,12 +19,6 @@
 		align-items: flex-start; 
 		justify-content: center;
 		padding: 2rem 1rem 1rem; 
-	}
-
-	.navigation {
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-start; 
 	}
 
 	.content {
@@ -41,29 +37,43 @@
 		margin: 0 auto;
 	}
 
-	.active-button {
-		background-color: #4CAF50; 
-		color: white;
-	}
-
 	@media (min-width: 1024px) {
 		.container {
 			padding: 14rem 12rem 8rem 4rem; 
 		}
+		.navigation {
+    display: none;
+  }
 	}
 </style>
 
 <main class="wrapper">
-	<div class="container">
-		<div class="navigation gap-2">
-			<img alt="logo" src={white_logo} class="logo" style="width: 100px;"> <!-- Ajustat width-ul pentru logo -->
-			<Button href="/" class="text-md {($page.url.pathname === '/') ? 'bg-accent' : ''}">home</Button>
-			<Button href="/work" class="text-md {($page.url.pathname === '/work') ? 'bg-accent' : ''}">work</Button>
-			<Button href="/contact" class="text-md {($page.url.pathname === '/contact') ? 'bg-accent' : ''}">contact</Button>
-		</div>
+  <div class="container">
+    <Sheet.Root>
+      <Sheet.Trigger class="md:hidden text-white">
+		<Icon icon="mdi:menu" width="2rem" />
+	  </Sheet.Trigger>
+      <Sheet.Content class="navigation gap-2 bg-primary" side="top">
+        <img alt="logo" src={white_logo} class="logo" style="width: 100px;">
+		<div class="flex flex-row gap-4 ml-1">
+<Button href="/" class="text-md {($page.url.pathname === '/') ? 'bg-accent' : ''}">home</Button>
+        <Button href="/work" class="text-md {($page.url.pathname === '/work') ? 'bg-accent' : ''}">work</Button>
+        <Button href="/contact" class="text-md {($page.url.pathname === '/contact') ? 'bg-accent' : ''}">contact</Button>
 
-		<div class="content mt-4 w-full">
-			<slot></slot>
 		</div>
-	</div>
+        
+      </Sheet.Content>
+    </Sheet.Root>
+
+    <div class="gap-2 hidden md:flex lg:flex md:flex-col lg:flex-col">
+      <img alt="logo" src={white_logo} class="logo" style="width: 100px;">
+      <Button href="/" class="text-md {($page.url.pathname === '/') ? 'bg-accent' : ''}">home</Button>
+      <Button href="/work" class="text-md {($page.url.pathname === '/work') ? 'bg-accent' : ''}">work</Button>
+      <Button href="/contact" class="text-md {($page.url.pathname === '/contact') ? 'bg-accent' : ''}">contact</Button>
+    </div>
+
+    <div class="content mt-4 w-full">
+      <slot></slot>
+    </div>
+  </div>
 </main>
