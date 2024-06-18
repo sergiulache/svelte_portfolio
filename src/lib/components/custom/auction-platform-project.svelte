@@ -20,7 +20,7 @@
 							style="width: 350px;"
 						/>
 					</Dialog.Trigger>
-					<Dialog.Content>
+					<Dialog.Content class="w-5/6">
 						<AuctionPlatformGallery/>
 					</Dialog.Content>
 				</Dialog.Root>

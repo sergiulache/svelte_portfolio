@@ -10,13 +10,13 @@
 </script>
 
 <main>
-	<div class="grid grid-cols-3">
+	<div class="grid lg:grid-cols-3 grid-cols-2 md:grid-cols-3 p-1">
 		{#each images as image}
 			<div class="m-3 flex flex-row rounded-xl border-2 shadow-lg">
 				<img
 					alt="logo"
 					src={image}
-					class="logo hidden rounded-xl object-contain duration-300 md:block lg:block"
+					class="logo  rounded-xl object-contain duration-300 md:block lg:block"
 					style="width: 350px;"
 				/>
 			</div>
