@@ -16,7 +16,7 @@
 						<img
 							alt="logo"
 							src={boat}
-							class="logo rounded-xl object-contain  blur-[2px] grayscale duration-300 hover:blur-0 hover:grayscale-0 md:block lg:block"
+							class="logo rounded-xl object-contain  blur-[1px] grayscale duration-500 hover:blur-0 hover:grayscale-0 md:block lg:block"
 							style="width: 350px;"
 						/>
 					</Dialog.Trigger>
