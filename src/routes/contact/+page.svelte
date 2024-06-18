@@ -1,11 +1,9 @@
 <script lang="ts">
 	import Input from '$lib/components/ui/input/input.svelte';
-	import * as Form from '$lib/components/ui/form';
 	import Label from '$lib/components/ui/label/label.svelte';
 	import Button from '$lib/components/ui/button/button.svelte';
 	import Textarea from '$lib/components/ui/textarea/textarea.svelte';
 	import * as Card from '$lib/components/ui/card/index.js';
-	import * as Select from '$lib/components/ui/select/index.js';
 	import Icon from '@iconify/svelte';
 
 	let name = '';
@@ -16,13 +14,6 @@
 		name = '';
 		email = '';
 		message = '';
-	}
-
-	function handleFormSubmit() {
-		const contactForm = document.getElementById('contactForm') as HTMLFormElement;
-		if (contactForm) {
-			contactForm.submit();
-		}
 	}
 </script>
 
