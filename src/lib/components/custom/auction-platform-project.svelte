@@ -17,16 +17,21 @@
 						<img
 							alt="logo"
 							src={auction_page}
-							class="logo rounded-lg object-contain  blur-[1px] grayscale duration-500 hover:blur-0 hover:grayscale-0 md:block lg:block"
+							class="logo rounded-lg object-contain  blur-[1px] grayscale duration-500 hover:blur-0 hover:grayscale-0 md:block lg:block hover:cursor-zoom-in"
 							style="width: 350px;"
 						/>
 					</Dialog.Trigger>
-					<Dialog.Content class="w-5/6">
-						<AuctionPlatformGallery/>
+					<Dialog.Content class="flex w-full h-5/6 items-center justify-center">
+						<img
+							src={auction_page}
+							class="rounded-lg object-scale-down"
+							style="max-width: 100%; max-height: 100%;"
+							alt="zoomed"
+						/>
 					</Dialog.Content>
 				</Dialog.Root>
 			</div>
-			<div class="col-span-3 flex flex-col gap-2 md:col-span-2 lg:col-span-2">
+			<div class="col-span-3 flex flex-col ml-4 gap-2 md:col-span-2 lg:col-span-2">
 				<h3 class="mb-4 text-2xl text-white">SvelteKit Auction Platform</h3>
 				<p class="text-white">
 					This is a project featuring a custom Python API with FastAPI, SvelteKit and AWS

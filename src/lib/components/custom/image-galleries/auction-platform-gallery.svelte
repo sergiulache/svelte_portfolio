@@ -45,12 +45,7 @@
 					</Dialog.Trigger>
 
 					<Dialog.Content class="flex h-screen w-full items-center justify-center">
-						<img
-							src={image}
-							class="rounded-lg object-cover"
-							style="max-width: 100%; max-height: 100%;"
-							alt="zoomed"
-						/>
+						
 					</Dialog.Content>
 				</Dialog.Root>
 			</div>
