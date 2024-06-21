@@ -7,25 +7,52 @@
 	import auction_created from '$lib/assets/auction_platform/auction_created.png';
 	import auction_details from '$lib/assets/auction_platform/auction_details.png';
 	import auction_page from '$lib/assets/auction_platform/auction_page.png';
-	import auctions_list  from '$lib/assets/auction_platform/auctions_list.png';
+	import auctions_list from '$lib/assets/auction_platform/auctions_list.png';
 	import auctions_table from '$lib/assets/auction_platform/auctions_table.png';
 	import bids_list from '$lib/assets/auction_platform/bids_list.png';
 	import verification_photo from '$lib/assets/auction_platform/verification_photo.png';
 
 	// create an array from the auction images
-	const images = [auction_created, auction_details, auction_page, auctions_list, auctions_table, bids_list, verification_photo];
+	const images = [
+		auction_created,
+		auction_details,
+		auction_page,
+		auctions_list,
+		auctions_table,
+		bids_list,
+		verification_photo
+	];
+
+	let imageZoomed = false;
+
+	const handleHideMainGallery = () => {
+		imageZoomed = !imageZoomed;
+	};
 </script>
 
 <main>
-	<div class="grid lg:grid-cols-3 grid-cols-2 md:grid-cols-3 p-1">
+	<div class="grid grid-cols-2 p-1 md:grid-cols-3 lg:grid-cols-3">
 		{#each images as image}
-			<div class="m-3 flex flex-row rounded-xl border-2 shadow-lg">
-				<img
-					alt="logo"
-					src={image}
-					class="logo  rounded-xl object-contain duration-300 md:block lg:block"
-					style="width: 350px;"
-				/>
+			<div class="m-3 flex flex-row rounded-lg">
+				<Dialog.Root>
+					<Dialog.Trigger class="p-0.5" on:click={handleHideMainGallery}>
+						<img
+							alt="logo"
+							src={image}
+							class="logo rounded-lg object-cover duration-300"
+							style="width: 350px;"
+						/>
+					</Dialog.Trigger>
+
+					<Dialog.Content class="flex h-screen w-full items-center justify-center">
+						<img
+							src={image}
+							class="rounded-lg object-cover"
+							style="max-width: 100%; max-height: 100%;"
+							alt="zoomed"
+						/>
+					</Dialog.Content>
+				</Dialog.Root>
 			</div>
 		{/each}
 	</div>

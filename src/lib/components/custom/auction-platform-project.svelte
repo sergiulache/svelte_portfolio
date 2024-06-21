@@ -13,11 +13,11 @@
 		<div class="lg:grid lg:grid-cols-3 gap-4 flex flex-col">
 			<div class="self-start lg:self-center justify-self-center rounded-xl border-2 shadow-lg flex flex-row">
 				<Dialog.Root>
-					<Dialog.Trigger class="p-0.5">
+					<Dialog.Trigger class="p-0">
 						<img
 							alt="logo"
 							src={auction_page}
-							class="logo rounded-xl object-contain  blur-[1px] grayscale duration-500 hover:blur-0 hover:grayscale-0 md:block lg:block"
+							class="logo rounded-lg object-contain  blur-[1px] grayscale duration-500 hover:blur-0 hover:grayscale-0 md:block lg:block"
 							style="width: 350px;"
 						/>
 					</Dialog.Trigger>
