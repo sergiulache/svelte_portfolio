@@ -4,9 +4,16 @@
 	import boat from '$lib/assets/boat.jpg';
 	import Icon from '@iconify/svelte';
 	import * as Dialog from '$lib/components/ui/dialog';
+	import auction_created from '$lib/assets/auction_platform/auction_created.png';
+	import auction_details from '$lib/assets/auction_platform/auction_details.png';
+	import auction_page from '$lib/assets/auction_platform/auction_page.png';
+	import auctions_list  from '$lib/assets/auction_platform/auctions_list.png';
+	import auctions_table from '$lib/assets/auction_platform/auctions_table.png';
+	import bids_list from '$lib/assets/auction_platform/bids_list.png';
+	import verification_photo from '$lib/assets/auction_platform/verification_photo.png';
 
-	// repeat the boat image 7 times
-	const images = Array.from({ length: 7 }, (_, i) => boat);
+	// create an array from the auction images
+	const images = [auction_created, auction_details, auction_page, auctions_list, auctions_table, bids_list, verification_photo];
 </script>
 
 <main>

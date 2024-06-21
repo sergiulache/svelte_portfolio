@@ -2,6 +2,7 @@
 	import { Button } from '$lib/components/ui/button';
 	import white_logo from '$lib/assets/white_logo.png';
 	import boat from '$lib/assets/boat.jpg';
+	import auction_page from '$lib/assets/auction_platform/auction_page.png';
 	import Icon from '@iconify/svelte';
 	import * as Dialog from '$lib/components/ui/dialog';
 	import AuctionPlatformGallery from './image-galleries/auction-platform-gallery.svelte';
@@ -15,7 +16,7 @@
 					<Dialog.Trigger class="p-0.5">
 						<img
 							alt="logo"
-							src={boat}
+							src={auction_page}
 							class="logo rounded-xl object-contain  blur-[1px] grayscale duration-500 hover:blur-0 hover:grayscale-0 md:block lg:block"
 							style="width: 350px;"
 						/>
