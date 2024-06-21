@@ -31,7 +31,7 @@
 					</Dialog.Content>
 				</Dialog.Root>
 			</div>
-			<div class="col-span-3 flex flex-col ml-4 gap-2 md:col-span-2 lg:col-span-2">
+			<div class="col-span-3 flex flex-col lg:ml-4 ml-0  gap-2 md:col-span-2 lg:col-span-2">
 				<h3 class="mb-4 text-2xl text-white">Next.js SaaS for handling warranty tickets</h3>
 				<p class="text-white">
 					This is a B2B SaaS aimed at big companies that need to handle warranty tickets in an
