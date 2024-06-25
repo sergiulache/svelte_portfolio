@@ -16,9 +16,12 @@
 					<Sheet.Trigger class="absolute text-white md:hidden">
 						<Icon icon="mdi:menu" width="2rem" />
 					</Sheet.Trigger>
-					<Sheet.Content class="navigation gap-2 bg-primary" side="top">
-						<img alt="logo" src={white_logo} class="logo" style="width: 100px;" />
-						<div class="ml-1 flex flex-row gap-4">
+					<Sheet.Content
+						class="navigation flex flex-col items-center justify-start gap-2 bg-primary"
+						side="top"
+					>
+						<img alt="logo" src={white_logo} class="logo mt-4" style="width: 100px;" />
+						<div class="mt-4 flex flex-row justify-center gap-4">
 							<Button href="/" class="text-md {$page.url.pathname === '/' ? 'bg-accent' : ''}"
 								>home</Button
 							>
