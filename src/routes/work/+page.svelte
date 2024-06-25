@@ -11,7 +11,7 @@
 	import TanstackSaasProject from '$lib/components/custom/tanstack-saas-project.svelte';
 </script>
 
-<main>
+<main class="min-h-full pb-12">
 	<p class="mb-9 text-4xl text-primary-foreground">My Work</p>
 	<p class="my-4 max-w-screen-sm text-background">
 		I love helping people build ambitious projects with new and exciting technologies. Below are
@@ -23,7 +23,6 @@
 		<TanstackSaasProject />
 		<Separator class="bg-muted-foreground" />
 		<AuctionPlatformProject />
-
 		<Separator class="bg-muted-foreground" />
 		<SveltePortofolioProject />
 	</div>
