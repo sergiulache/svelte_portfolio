@@ -5,7 +5,7 @@
 	import * as Dialog from '$lib/components/ui/dialog';
 	import svelte_portofolio from '$lib/assets/svelte_portofolio/svelte_portofolio.png';
 
-	function openInNewTab(url) {
+	function openInNewTab(url: string | URL | undefined) {
 		window.open(url, '_blank', 'noopener,noreferrer');
 	}
 </script>
@@ -14,10 +14,10 @@
 	<div class="flex flex-col">
 		<div class="flex flex-col gap-4 lg:grid lg:grid-cols-3">
 			<div
-				class="flex flex-row self-start justify-self-center rounded-xl border-2 shadow-lg lg:self-center"
+				class="flex flex-row self-start justify-self-center rounded-md border-2 shadow-lg lg:self-center"
 			>
 				<Dialog.Root>
-					<Dialog.Trigger class="p-0">
+					<Dialog.Trigger class="p-2">
 						<img
 							alt="logo"
 							src={svelte_portofolio}

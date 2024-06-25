@@ -65,6 +65,7 @@
 		min-height: 100vh;
 		display: flex;
 		flex-direction: column;
+		overflow-y: scroll; /* Always show vertical scrollbar */
 	}
 	.page-wrapper {
 		flex: 1;
@@ -73,9 +74,11 @@
 	}
 	.content-wrapper {
 		flex: 1;
-		overflow-y: auto;
+		display: flex;
+		flex-direction: column;
 	}
 	.wrapper {
+		flex: 1;
 		display: flex;
 		width: 100%;
 		max-width: 1800px;
@@ -84,9 +87,14 @@
 	.container {
 		display: flex;
 		align-items: flex-start;
-		justify-content: center;
+		justify-content: flex-start;
 		padding: 2rem 1rem 1rem;
 		width: 100%;
+	}
+	.content-area {
+		flex: 1;
+		overflow-y: auto;
+		margin-right: calc(100vw - 100%); /* Compensate for scrollbar width */
 	}
 	.content {
 		flex-grow: 1;

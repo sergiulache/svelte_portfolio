@@ -18,7 +18,7 @@
 			university colleagues.
 		</p>
 		<div>
-			<div class="flex md:flex-row lg:flex-row flex-col items-center gap-6">
+			<div class="flex flex-col items-center gap-6 md:flex-row lg:flex-row">
 				<Avatar.Root>
 					<Avatar.Image src={avatar} alt="avatar" />
 					<Avatar.Fallback>CN</Avatar.Fallback>
@@ -50,8 +50,8 @@
 				and SvelteKit, but most of my projects are built with
 				<NextjsHover />
 				and React. Amongst my projects, you can find a variety of web applications, from simple landing
-				pages to complex SaaS platforms. I was always more passionate about the smaller projects,
-				as they allow me to experiment with new technologies and ideas.
+				pages to complex SaaS platforms. I was always more passionate about the smaller projects, as
+				they allow me to experiment with new technologies and ideas.
 			</p>
 		</div>
 	</div>
