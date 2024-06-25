@@ -21,7 +21,7 @@
 							style="width: 350px;"
 						/>
 					</Dialog.Trigger>
-					<Dialog.Content class="flex h-5/6 w-full items-center justify-center">
+					<Dialog.Content class="flex w-full py-6">
 						<img
 							src={next_saas}
 							class="rounded-lg object-scale-down"

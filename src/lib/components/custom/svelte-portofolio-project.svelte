@@ -25,7 +25,7 @@
 							style="width: 350px;"
 						/>
 					</Dialog.Trigger>
-					<Dialog.Content class="flex h-5/6 w-full items-center justify-center">
+					<Dialog.Content class="flex">
 						<img
 							src={svelte_portofolio}
 							class="rounded-lg object-scale-down"

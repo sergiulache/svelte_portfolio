@@ -23,7 +23,7 @@
 							style="width: 350px;"
 						/>
 					</Dialog.Trigger>
-					<Dialog.Content class="flex h-5/6 w-full items-center justify-center">
+					<Dialog.Content class="flex p-0">
 						<img
 							src={auction_page}
 							class="rounded-lg object-scale-down"

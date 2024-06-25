@@ -20,16 +20,16 @@
 		{transition}
 		{transitionConfig}
 		class={cn(
-			'fixed left-[50%] top-[50%] z-50 grid w-full max-w-screen-xl translate-x-[-50%] translate-y-[-50%] gap-4 border bg-primary px-6 py-3 shadow-lg sm:rounded-lg md:w-full',
+			'fixed left-1/2 top-1/2 z-50 grid max-h-screen max-w-screen-xl translate-x-[-50%] translate-y-[-50%] gap-4 border bg-primary px-6 py-3 shadow-lg sm:rounded-lg',
 			className
 		)}
 		{...$$restProps}
 	>
 		<slot />
 		<DialogPrimitive.Close
-			class="absolute right-4 top-4 rounded-sm opacity-70 ring-offset-primary transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-white"
+			class="absolute right-2 top-2 rounded-sm opacity-70 ring-offset-primary transition-opacity hover:opacity-100 focus:outline-none disabled:pointer-events-none data-[state=open]:bg-black"
 		>
-			<X class="h-4 w-4 text-white" />
+			<X class="h-4 w-4 text-red-500" />
 			<span class="sr-only">Close</span>
 		</DialogPrimitive.Close>
 	</DialogPrimitive.Content>
