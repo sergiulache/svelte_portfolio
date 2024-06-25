@@ -18,11 +18,12 @@
 		some of my most recent projects.
 	</p>
 	<div class="mt-12 flex flex-col gap-8">
-		<AuctionPlatformProject />
-		<Separator class="bg-muted-foreground" />
 		<NextSaasProject />
 		<Separator class="bg-muted-foreground" />
 		<TanstackSaasProject />
+		<Separator class="bg-muted-foreground" />
+		<AuctionPlatformProject />
+
 		<Separator class="bg-muted-foreground" />
 		<SveltePortofolioProject />
 	</div>

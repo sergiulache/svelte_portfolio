@@ -31,7 +31,7 @@
 					</Dialog.Content>
 				</Dialog.Root>
 			</div>
-			<div class="col-span-3 flex flex-col lg:ml-4 ml-0  gap-2 md:col-span-2 lg:col-span-2">
+			<div class="col-span-3 ml-0 flex flex-col gap-2 md:col-span-2 lg:col-span-2 lg:ml-4">
 				<h3 class="mb-4 text-2xl text-white">Next.js SaaS for handling warranty tickets</h3>
 				<p class="text-white">
 					This is a B2B SaaS aimed at big companies that need to handle warranty tickets in an
@@ -41,11 +41,22 @@
 					SMTP emails.
 				</p>
 				<p class="text-white">
-					The project is currently private, but a live demo is available upon request.
+					The project is currently private, but a demo is available and the live version is for
+					sale.
 				</p>
 				<div class="mt-4 flex flex-row gap-2">
-					<Button class="bg-accent hover:bg-muted-foreground" href="/contact"
-						>Request Live Demo</Button
+					<a
+						href="https://service.alexambrinos.com/"
+						target="_blank"
+						rel="noopener noreferrer"
+						class="link-cover"
+					>
+						<Button class="bg-accent hover:bg-muted-foreground">Live Demo</Button>
+					</a>
+
+					<Button
+						class="bg-foreground hover:bg-foreground/50 hover:ring-1 hover:ring-white"
+						href="/contact">Subscribe to the live version</Button
 					>
 				</div>
 			</div>
