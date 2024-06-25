@@ -12,8 +12,8 @@
 	<div class="content-wrapper">
 		<main class="wrapper">
 			<div class="container">
-				<Sheet.Root>
-					<Sheet.Trigger class="text-white md:hidden">
+				<Sheet.Root class="absolute">
+					<Sheet.Trigger class="absolute text-white md:hidden">
 						<Icon icon="mdi:menu" width="2rem" />
 					</Sheet.Trigger>
 					<Sheet.Content class="navigation gap-2 bg-primary" side="top">
@@ -47,7 +47,7 @@
 						class="text-md {$page.url.pathname === '/contact' ? 'bg-accent' : ''}">contact</Button
 					>
 				</div>
-				<div class="content mt-4 w-full">
+				<div class="content mt-10 w-full md:mt-4 lg:mt-4">
 					<slot></slot>
 				</div>
 			</div>
@@ -88,7 +88,7 @@
 		display: flex;
 		align-items: flex-start;
 		justify-content: flex-start;
-		padding: 2rem 1rem 1rem;
+		padding: 1rem 1rem 1rem;
 		width: 100%;
 	}
 	.content-area {
@@ -100,9 +100,9 @@
 		flex-grow: 1;
 		display: flex;
 		flex-direction: column;
-		align-items: flex-start;
+		align-items: center;
 		justify-content: flex-start;
-		padding: 0 2rem;
+		padding: 0 1rem;
 		max-width: 1200px;
 		width: 100%;
 	}

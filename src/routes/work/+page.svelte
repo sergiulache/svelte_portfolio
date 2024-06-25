@@ -12,7 +12,9 @@
 </script>
 
 <main class="min-h-full pb-12">
-	<p class="mb-9 text-4xl text-primary-foreground">My Work</p>
+	<p class="mb-9 text-center text-4xl text-primary-foreground md:text-start lg:text-start">
+		My Work
+	</p>
 	<p class="my-4 text-background">
 		I love helping people build ambitious projects with new and exciting technologies. Below are
 		some of my most recent projects.
