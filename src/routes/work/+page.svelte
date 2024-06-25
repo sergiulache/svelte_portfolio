@@ -13,7 +13,7 @@
 
 <main class="min-h-full pb-12">
 	<p class="mb-9 text-4xl text-primary-foreground">My Work</p>
-	<p class="my-4 max-w-screen-sm text-background">
+	<p class="my-4 text-background">
 		I love helping people build ambitious projects with new and exciting technologies. Below are
 		some of my most recent projects.
 	</p>
