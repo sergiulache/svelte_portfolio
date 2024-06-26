@@ -12,7 +12,7 @@
 	<div class="content-wrapper">
 		<main class="wrapper">
 			<div class="container">
-				<Sheet.Root class="absolute">
+				<Sheet.Root>
 					<Sheet.Trigger class="absolute text-white md:hidden">
 						<Icon icon="mdi:menu" width="2rem" />
 					</Sheet.Trigger>
