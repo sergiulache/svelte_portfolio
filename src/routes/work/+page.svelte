@@ -11,6 +11,13 @@
 	import TanstackSaasProject from '$lib/components/custom/tanstack-saas-project.svelte';
 </script>
 
+<svelte:head>
+	<meta
+		name="description"
+		content="A showcase of my most recent projects, demonstrating my skills in building ambitious projects with new and exciting technologies."
+	/>
+</svelte:head>
+
 <main class="min-h-full pb-12">
 	<p class="mb-9 text-center text-4xl text-primary-foreground md:text-start lg:text-start">
 		My Work

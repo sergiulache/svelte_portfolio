@@ -9,6 +9,13 @@
 	export let data;
 </script>
 
+<svelte:head>
+	<meta
+		name="description"
+		content="Homepage of Sergiu Batrinac, a web developer based in Romania."
+	/>
+</svelte:head>
+
 <main class="text-primary-foreground">
 	<p class="mb-9 text-center text-4xl tracking-wider md:text-start lg:text-start">
 		Sergiu Batrînac

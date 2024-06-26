@@ -17,6 +17,13 @@
 	}
 </script>
 
+<svelte:head>
+	<meta
+		name="description"
+		content="Various ways to contact me directly or send me a message. I'm always happy to help you with your projects."
+	/>
+</svelte:head>
+
 <main class="flex w-full flex-col text-primary-foreground md:w-full">
 	<p class="mb-4 text-center text-4xl md:text-start lg:text-start">Contact me</p>
 	<div class="md:1/2 w:1/2 flex flex-col gap-4 md:flex-col lg:w-full lg:flex-row">
