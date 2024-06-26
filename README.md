@@ -9,6 +9,7 @@ To set up the project, you can use the following commands in your terminal:
 ```bash
 # clone the project to a new directory
 git clone https://github.com/sergiulache/svelte_portfolio.git
+cd svelte_portfolio
 
 # install dependencies
 npm install
