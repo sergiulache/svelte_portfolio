@@ -6,7 +6,24 @@
 	import * as Sheet from '$lib/components/ui/sheet';
 	import Icon from '@iconify/svelte';
 	import Footer from '$lib/components/custom/footer.svelte';
+
+	$: pageTitle = (() => {
+		switch ($page.url.pathname) {
+			case '/':
+				return 'Sergiu Batrinac';
+			case '/work':
+				return 'Work';
+			case '/contact':
+				return 'Contact';
+			default:
+				return 'Sergiu Batrinac'; // Default title
+		}
+	})();
 </script>
+
+<svelte:head>
+	<title>{pageTitle}</title>
+</svelte:head>
 
 <div class="page-wrapper">
 	<div class="content-wrapper">
