@@ -36,15 +36,15 @@
 				</Dialog.Root>
 			</div>
 			<div class="col-span-3 ml-0 flex flex-col gap-2 md:col-span-2 lg:col-span-2 lg:ml-4">
-				<h3 class="mb-4 text-2xl text-white">SvelteKit Portofolio</h3>
+				<h3 class="mb-4 text-2xl text-white">SvelteKit Portfolio</h3>
 				<p class="text-white">
-					This is the portofolio you are currently viewing. It is built with SvelteKit, TailwindCSS
+					This is the portfolio you are currently viewing. It is built with SvelteKit, TailwindCSS
 					and Shadcn components.
 				</p>
 				<p class="text-white">The project is open-source and available on GitHub.</p>
 				<div class="mt-4 flex flex-row gap-2">
 					<a
-						href="https://github.com/sergiulache/svelte_portofolio"
+						href="https://github.com/sergiulache/svelte_portfolio"
 						target="_blank"
 						rel="noopener noreferrer"
 						class="link-cover"

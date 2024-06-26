@@ -1,22 +1,22 @@
-# create-svelte
+# Sergiu Batrînac
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+This is my personal portfolio website. It is built with SvelteKit and TailwindCSS.
 
-## Creating a project
+## Cloning the project & installing dependencies
 
-If you're seeing this, you've probably already done this step. Congrats!
+To set up the project, you can use the following commands in your terminal:
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
+# clone the project to a new directory
+git clone https://github.com/sergiulache/svelte_portfolio.git
 
-# create a new project in my-app
-npm create svelte@latest my-app
+# install dependencies
+npm install
 ```
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Once you've cloned the project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
 ```bash
 npm run dev
@@ -27,7 +27,7 @@ npm run dev -- --open
 
 ## Building
 
-To create a production version of your app:
+To create a production version of the app:
 
 ```bash
 npm run build
