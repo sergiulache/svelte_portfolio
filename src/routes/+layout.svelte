@@ -30,12 +30,13 @@
 		<main class="wrapper">
 			<div class="container">
 				<Sheet.Root>
-					<Sheet.Trigger class="absolute text-white md:hidden">
-						<Icon icon="mdi:menu" width="2rem" />
+					<Sheet.Trigger class="absolute text-white md:hidden" aria-label="Menu">
+						<Icon icon="mdi:menu" width="2rem" title="Menu" />
 					</Sheet.Trigger>
 					<Sheet.Content
 						class="navigation flex flex-col items-center justify-start gap-2 bg-primary"
 						side="top"
+						aria-label="Navigation menu"
 					>
 						<img alt="logo" src={white_logo} class="logo mt-4" style="width: 100px;" />
 						<div class="mt-4 flex flex-row justify-center gap-4">
